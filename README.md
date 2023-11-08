@@ -1,1 +1,1 @@
-# gw-pred-nn
+# Genome wide prediction of regulatory elements using neural networks
