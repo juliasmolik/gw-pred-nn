@@ -1,6 +1,5 @@
-<img src="./logo.png" width="250" height="250">
+<img align="left" src="./logo.png" width="25%"> <h1 style="margin-left:300px;"> <br> <br> Genome wide prediction of regulatory <br> elements using neural networks
 
-# Genome wide prediction of regulatory <br> elements using neural networks
 #### Interpretation of filters from convolutional layers of neural networks based on DNA motifs
 
 In recent years, the advent of high-throughput sequencing technologies has generated vast amounts of genomic data, enabling the development of computational approaches to predict regulatory elements. The Basset tool ([Kelley et al., 2016 Genome Research](https://genome.cshlp.org/content/26/7/990)), published in the last decade, uses convolutional neural networks to learn the functional activity of DNA sequences. It predicts cell type-specific chromatin openness (DNA sequence accessibility) in 164 cell types. The architecture of the neural network from the Basset tool has been modified and adapted to the problem of identifying the regulatory activity of regions of the genome in one type of tissue (human brain tumor tissue), as well as assigning functions to these regions (promoter or enhancer). The changed models are the result of Marlena Osipowicz's [master's thesis](https://github.com/marnifora/magisterka).
