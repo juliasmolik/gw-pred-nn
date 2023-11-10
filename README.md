@@ -33,6 +33,7 @@ The results of all the analyzes are part of a publication on genome-wide predict
 * Python libraries: argparse, os, math, csv, statistics, random, itertools, re, textwrap, glob, subprocess, pathlib, shutil
 
 #### R
+* R 4.2.2
 * DNAshapeR 1.26.0
 * seqinr 4.2.30
 * stringr 1.5.0
