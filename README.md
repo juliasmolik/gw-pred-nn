@@ -4,15 +4,15 @@
 #### Interpretation of filters from convolutional layers of neural networks based on DNA motifs
 
 ---------------------------------------------------------------------------------------------------
-## Documentation
+### Documentation
 
 ---------------------------------------------------------------------------------------------------
-## License
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ---------------------------------------------------------------------------------------------------
-## Authors
-[Julia Smolik](https://github.com/juliasmolik)
-[Marlena Osipowicz](https://github.com/marnifora)
-Magdalena Machnicka
+### Authors
+[Julia Smolik](https://github.com/juliasmolik) <br>
+[Marlena Osipowicz](https://github.com/marnifora) <br>
+Magdalena Machnicka <br>
 Bartek Wilczyński
