@@ -14,6 +14,30 @@ The results of all the analyzes are part of a publication on genome-wide predict
 ### Documentation
 
 ---------------------------------------------------------------------------------------------------
+### Versions
+
+#### Python
+* Python 3.9.0
+* Torch 1.10.2
+* Pandas 1.2.3
+* Numpy 1.23.5
+* Scipy 1.10.1
+* Matplotlib 3.5.1
+* Seaborn 0.12.1
+* Scikit-learn 1.0.2
+* Bs4 0.0.1
+* Venn 0.1.3
+* Statsmodels 0.12.2
+* Seqlogo 5.29.8
+* XlsxWriter 3.0.7
+* Python libraries: argparse, os, math, csv, statistics, random, itertools, re, textwrap, glob, subprocess, pathlib, shutil
+
+#### R
+* DNAshapeR 1.26.0
+* seqinr 4.2.30
+* stringr 1.5.0
+
+---------------------------------------------------------------------------------------------------
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
 
