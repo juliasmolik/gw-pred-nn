@@ -12,9 +12,29 @@ The results of all the analyzes are part of a publication on genome-wide predict
 
 ---------------------------------------------------------------------------------------------------
 ### Usage
+- [Extracting and grouping filters](usage/extract_filters.md)
+  - [extract_filters.py](usage/extract_filters.md#extract_filters.py)
+- [Analysis of filters with low average weight value](usage/low_average.md)
+  - [test_changed_models.py](usage/low_average.md#test_changed_models.py)
+- [Analysis of filters with high average weight value](usage/high_average.md)
+  - [Creating PFM matrices](usage/high_average.md#pfm_matrices)
+    - [scan_sequences.py](usage/high_average.md#scan_sequences.py)
+  - [Scanning the transcription factor motif database](usage/high_average.md#tomtom)
+    - [pfm_to_kmers.py](usage/high_average.md#pfm_to_kmers.py)
+    - [tomtom_analysis.py](usage/high_average.md#tomtom_analysis.py)
+  - [Analysis of structural features of DNA sequences](usage/high_average.md#dnashape)
+    - [prepare_dnashape_data.py](usage/high_average.md#prepare_dnashape_data.py)
+    - [dnashape_analysis.Rmd](usage/high_average.md#dnashape_analysis.Rmd)
+    - [calculate_correlation.py](usage/high_average.md#calculate_correlation.py)
+  - [DNA structural features and similarity to TF motifs](usage/high_average.md#dna_motifs)
+    - [central_nucleotides.py](usage/high_average.md#central_nucleotides.py)
+- [Visualization](usage/visualization.md)
+
 
 ---------------------------------------------------------------------------------------------------
 ### Documentation
+
+[The documentation](documentation.pdf) includes a diagram and description of the analyzes performed as well as the use of scripts included in the repository.
 
 ---------------------------------------------------------------------------------------------------
 ### Versions
