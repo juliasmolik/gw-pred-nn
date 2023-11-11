@@ -26,8 +26,12 @@ The results of all the analyzes are part of a publication on genome-wide predict
     - [prepare_dnashape_data.py](usage/high_average.md#prepare_dnashape_data.py)
     - [dnashape_analysis.Rmd](usage/high_average.md#dnashape_analysis.Rmd)
     - [calculate_correlation.py](usage/high_average.md#calculate_correlation.py)
+    - [significant_qvalues.py](usage/high_average.md#significant_qvalues.py)
   - [DNA structural features and similarity to TF motifs](usage/high_average.md#dna_motifs)
     - [central_nucleotides.py](usage/high_average.md#central_nucleotides.py)
+  - [Analysis of low IC filter fragments](usage/high_average.md#low_ic.md)
+    - [filters_low_ic.py](usage/high_average.md#filters_low_ic.py)
+    - [fragments_prediction.py](usage/high_average.md#fragments_prediction.py)
 - [Visualization](usage/visualization.md)
 
 
