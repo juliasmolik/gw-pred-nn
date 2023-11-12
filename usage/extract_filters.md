@@ -4,7 +4,8 @@
 ## Extracting and grouping filters
 
 <a name="extract_filters.py"/>
-<h4 href = "scripts/extract_filters.py"> extract_filters.py</h4>
+
+<a href=“scripts/extract_filters.py”><h4>extract_filters.py</h4></a>
 
 Extract filters from the network, calculate their stats and then based on that divide them into those with high and low average weight values
 
