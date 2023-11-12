@@ -62,7 +62,7 @@ The results of all the analyzes are part of a publication on genome-wide predict
 
 #### R
 * R 4.2.2
-* DNAshapeR 1.26.0
+* [DNAshapeR](https://bioconductor.org/packages/release/bioc/html/DNAshapeR.html) 1.26.0
 * seqinr 4.2.30
 * stringr 1.5.0
 
