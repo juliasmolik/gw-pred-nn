@@ -57,7 +57,7 @@ The results of all the analyzes are part of a publication on genome-wide predict
 * Statsmodels 0.12.2
 * Seqlogo 5.29.8
 * XlsxWriter 3.0.7
-* Python libraries: argparse, os, math, csv, statistics, random, itertools, re, textwrap, glob, subprocess, pathlib, shutil
+* Python libraries: argparse, os, math, csv, sys, statistics, random, itertools, re, textwrap, glob, subprocess, pathlib, shutil
 * Tomtom 5.4.1 ([The MEME Suite](https://meme-suite.org/meme/doc/download.html))
 
 #### R
