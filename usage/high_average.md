@@ -9,7 +9,7 @@
 
 <a href=“scripts/scan_sequences.py”><h4>scan_sequences.py</h4></a>
 
-Description
+Scan training dataset sequences using chosen filters and create PFM matrices based on n best sub-sequences for each filter
 
 | Arguments | Type | Description |
 | --- | --- | --- |

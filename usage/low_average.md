@@ -7,7 +7,7 @@
 
 <a href=“scripts/test_changed_models.py”><h4>test_changed_models.py</h4></a>
 
-Description
+Perform a network test and save the output predictions, prediction fluctuations, and metrics to files
 
 | Arguments | Type | Description |
 | --- | --- | --- |
