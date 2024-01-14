@@ -49,3 +49,17 @@ Perform Tomtom analysis. Create statistics files summarizing Tomtom results.
 | --ppm | string | The path where the filter kmer PPM matrices are located |
 | --dataset | string | The dataset name from which the training sequences came |
 | --network | string | The network name where the filters came from |
+
+
+<h3>Analysis of structural features of DNA sequences</h3>
+
+<a name="prepare_dnashape_data.py"/>
+
+<a href=“scripts/prepare_dnashape_data.py”><h4>prepare_dnashape_data.py</h4></a>
+
+Create all possible sequences of length k. Calculate the convolution of each of them with the weight values in the analyzed filter k-mer.
+| Arguments | Type | Description |
+| --- | --- | --- |
+| --network | string | The network name where the filters came from |
+| --k | int | Kmer value (length of the divided filter matrix as well as sequences) [Default: 5] |
+

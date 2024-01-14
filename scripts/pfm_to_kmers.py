@@ -71,8 +71,8 @@ def calculate_ic(pfm_file, dataset, network, epsilon, k, ic_tresh):
     kmer into a different file (below_tresh). 
     
     :param pfm_file: txt file with a PFM matrix representing a filter
-    :param dataset: class considered 
-    :param network: network considered
+    :param dataset: class analyzed 
+    :param network: network analyzed
     :param k: kmer length
     :param ic_tresh: IC value threshold
     """
