@@ -36,3 +36,16 @@ Divide filters into kmers and for each of them create a PFM matrix. Calculate th
 | --epsilon | float |The pseudo counts value [Default: 1] |
 | --k | int | Kmer value (length of the divided filter matrix) [Default: 7] |
 | --thresh | float | IC value cutoff threshold [Default: 6.5] |
+
+
+<a name="tomtom_analysis.py"/>
+
+<a href=“scripts/tomtom_analysis.py”><h4>tomtom_analysis.py</h4></a>
+
+Perform Tomtom analysis. Create statistics files summarizing Tomtom results. 
+
+| Arguments | Type | Description |
+| --- | --- | --- |
+| --ppm | string | The path where the filter kmer PPM matrices are located |
+| --dataset | string | The dataset name from which the training sequences came |
+| --network | string | The network name where the filters came from |
