@@ -7,11 +7,11 @@
 
 <a href=“scripts/test_changed_models.py”><h4>test_changed_models.py</h4></a>
 
-Extract filters from the network, calculate their stats and then based on that divide them into those with high and low average weight values.
+Description
 
 | Arguments | Type | Description |
 | --- | --- | --- |
 | --model | string | The path where the network file is located |
 | --sequences | string | The path to the sequences (FASTA) that will be used for the test set. |
-| --chrom_list | string | Chromosomes (zero or more) from which the sequences for the test set are to come [Default: ["chr21", "chr22", "chrX", "chrY"]] |
+| --chrom_list | strings | Chromosomes (zero or more) from which the sequences for the test set are to come [Default: ["chr21", "chr22", "chrX", "chrY"]] |
 
