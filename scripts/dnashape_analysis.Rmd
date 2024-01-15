@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(DNAshapeR)
+library(seqinr)
+library(stringr)
+```
+
+```{r}
+# replace with your paths
+path_to_sequences = ""
+output_dir = ""
+```
+
+
+```{r}
+dir.create(output_dir)
+all_files = c(list.files(path_to_sequences))
+for (file in all_files){
+  if (endsWith(file, ".fa")){
+    setwd("~/")
+    fn <- sprintf("%s/%s", path_to_sequences, file)
+    pred <- getShape(fn)
+    name = c()
+    values = c()
+    vector = c()
+    for (x in names(pred)) {
+      i<-0
+      for (y in pred[[x]]){
+        i<-i+1
+        if (!is.na(pred[[x]][i])){
+          name = append(name, x)
+          values = append(values, pred[[x]][i])
+          vector = append(vector, sprintf("V%s", i))
+        }
+      }
+    }
+    
+    df <- data.frame(
+      Parameter = name,
+      Value = values,
+      Vector = vector
+    )
+    tmp = str_split(fn, "/")
+    tmp2 = sapply(tmp, tail, 1)
+    output = str_replace(tmp2, ".fa", ".csv")
+    write.csv(df, sprintf("%s/%s", output_dir, output), row.names=FALSE)
+    print("saved")
+  }
+}
+```
+

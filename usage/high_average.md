@@ -63,3 +63,14 @@ Create all possible sequences of length k. Calculate the convolution of each of 
 | --network | string | The network name where the filters came from |
 | --k | int | Kmer value (length of the divided filter matrix as well as sequences) [Default: 5] |
 
+
+<a name="dnashape_analysis.Rmd"/>
+
+<a href=“dnashape_analysis.Rmd”><h4>dnashape_analysis.Rmd</h4></a>
+
+Calculate DNAshape parameters for each of the possible sequences of previously selected length
+| Arguments | Type | Description |
+| --- | --- | --- |
+| path_to_sequences | string | The path where the sequences of previously selected length are located |
+| output_dir | string | The path to write DNAshape parameters for each sequence |
+
