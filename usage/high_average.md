@@ -69,8 +69,18 @@ Create all possible sequences of length k. Calculate the convolution of each of 
 <a href=“dnashape_analysis.Rmd”><h4>dnashape_analysis.Rmd</h4></a>
 
 Calculate DNAshape parameters for each of the possible sequences of previously selected length
-| Arguments | Type | Description |
+| Variables | Type | Description |
 | --- | --- | --- |
 | path_to_sequences | string | The path where the sequences of previously selected length are located |
 | output_dir | string | The path to write DNAshape parameters for each sequence |
+
+
+<a name="calculate_correlation.py"/>
+
+<a href=“scripts/calculate_correlation.py”><h4>calculate_correlation.py</h4></a>
+
+Calculate the correlation of the convolution value depending on the analyzed sequence with the DNAshape parameters of a given sequence.
+| Arguments | Type | Description |
+| --- | --- | --- |
+| --network | string | The network name where the filters came from |
 
