@@ -84,3 +84,12 @@ Calculate the correlation of the convolution value depending on the analyzed seq
 | --- | --- | --- |
 | --network | string | The network name where the filters came from |
 
+<a name="significant_qvalues.py"/>
+
+<a href=“scripts/significant_qvalues.py”><h4>significant_qvalues.py</h4></a>
+
+Calculate q-values and look for filter kmers significantly correlated with each parameter.
+| Arguments | Type | Description |
+| --- | --- | --- |
+| --network | string | The network name where the filters came from |
+| --thresh | value that can be converted to float | Threshold for q-value cut-off [Default: 1e-15] |
